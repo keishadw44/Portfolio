@@ -41,6 +41,9 @@ h4 {
   font-size: 14px;
   font-weight: 600;
 }
+h3{
+  color: #292929;
+}
 
 a {
   color: #292929;
@@ -61,7 +64,7 @@ p {
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #b87eae;
   color: #fff;
 }
 
@@ -71,7 +74,7 @@ p {
 }
 
 .btn {
-  background: #333;
+  background: rgb(250, 4, 156);
   border: medium none;
   border-radius: 0;
   color: #fff;
@@ -136,7 +139,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #f70696;
 }
 
 .mb-30 {
@@ -157,7 +160,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #b8a07e;
+  background: rgb(239, 34, 130);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -189,7 +192,7 @@ p {
   padding: 15px 0;
   background-color: #fff;
   top: -100%;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 25px rgb(239, 34, 130);
 }
 
 #header.header-scrolled,
@@ -253,7 +256,7 @@ p {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  color: #7e7d7d;
+  color: #e692f1;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -269,7 +272,7 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #b8a07e;
+  color: rgb(239, 34, 130);
 }
 
 .navbar .dropdown ul {
@@ -303,7 +306,7 @@ p {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #b8a07e;
+  color: #b87ead;
 }
 
 .navbar .dropdown:hover>ul {
@@ -368,7 +371,7 @@ p {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(49, 49, 49, 0.9);
+  background: rgb(239, 34, 130);
   transition: 0.3s;
 }
 
@@ -402,7 +405,7 @@ p {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #b8a07e;
+  color: #f70bc4;
 }
 
 .navbar-mobile .getstarted,
@@ -410,17 +413,7 @@ p {
   margin: 15px;
 }
 
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
+
 
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
@@ -437,7 +430,7 @@ p {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #b8a07e;
+  color: #ed05a0;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -452,6 +445,19 @@ p {
   height: 100vh;
   width: 100%;
 }
+
+.p-heading{
+  color: rgb(219, 17, 51);
+}
+
+.separator{
+  color: rgb(250, 4, 156)
+}
+dropdown{
+  color: pink;
+}
+
+
 
 #hero .hero-content {
   height: 100vh;
@@ -483,11 +489,19 @@ p {
 .hero-content .list-social li {
   float: left;
   margin-right: 20px;
+  
 }
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 30px;
+ 
+}
+resume {
+  color:rgb(239, 34, 130);
+  font-size: 25px;
+  font-stretch: semi-expanded;
+
 }
 
 /*--------------------------------------------------------------
@@ -563,7 +577,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #e16abf;
 }
 
 #about .div-img-bg .about-img img {
@@ -601,7 +615,7 @@ p {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #292929;
+  color:#4c07eb;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -616,7 +630,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #fd06af;
   line-height: 44px;
 }
 
@@ -630,11 +644,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #f206c3;
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #4c07eb;
 }
 
 /*--------------------------------------------------------------
@@ -759,7 +773,7 @@ p {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(75, 74, 74, 0.08);
+  box-shadow: 0px 0 30px rgba(224, 100, 174, 0.08);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -785,6 +799,7 @@ p {
 }
 
 .portfolio-details .portfolio-description h2 {
+  
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -792,6 +807,16 @@ p {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+h2{
+  color: rgb(239, 34, 130);
+}
+h4{
+  color: rgb(239, 34, 130);
+}
+
+p{
+  color: black;
 }
 
 /*--------------------------------------------------------------
@@ -860,6 +885,8 @@ p {
 }
 
 .contact-details {
+  color: rgb(250, 4, 156);
+  font-weight: bolder;
   list-style: none;
   margin: 0;
   padding: 0;
