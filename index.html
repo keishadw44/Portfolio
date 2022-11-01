@@ -40,7 +40,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <a href="index.html" class="logo"><img src="assets/img/myport.png" alt="" class="img-fluid"></a>
       <!-- Uncomment below if you prefer to use an text logo -->
       <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
 
@@ -49,22 +49,9 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
+          
+            
+             
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
@@ -81,11 +68,12 @@
       <div class="hero-content">
         <h1>I'm LaKeisha Waller</span></h1>
         <h2>I'm a <span class="typed" data-typed-items="Software Engineer, Developer, Cosmetologist, Freelancer"></span></h2>
-        <p>Software Engineer, Developer, Cosmetologist, Freelancer</p>
+        <p><h3>Engineer, Developer, Cosmetologist, Freelancer</h3></p>
 
         <ul class="list-unstyled list-social">
           <li><a href="https://github.com/keishadw44"><i class="bi bi-github"></i></a></li>
           <li><a href="https://www.linkedin.com/in/lwaller-17667872"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://docs.google.com/document/d/e/2PACX-1vTUj4kR2-0b_IhRE2R6ISfe8fpnBWa7jioTcXLdE50OXXesxmpCSoUj4HJXye0mmbwgoU9zCp2O-v2F/pub"><i class="bi-file-earmark-pdf-fill"></i></a></li>
         </ul>
       </div>
     </div>
@@ -97,6 +85,7 @@
     <div id="about" class="paddsection">
       <div class="container">
         <div class="row justify-content-between">
+<!-- Slideshow container -->
 
           <div class="col-lg-4 ">
             <div class="div-img-bg">
@@ -109,12 +98,22 @@
           <div class="col-lg-7">
             <div class="about-descr">
 
-              <p class="p-heading">im a ux /ui designer austin based who loves clean, simple & unique design. i also enjoy crafting brand identities, icons, & ilustration work. </p>
-              <p class="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>
-
+              <p class="p-heading">I am a software developer and love to spend my extra time creating projects and learning other languages.
+                I enjoy spending time learning and problem solving with back-end development. My hobbies consist of doing hair, nails,
+                brows, and lashes. I pretty much like anything that deals with beauty and making people embrace their beauty.
+                As I learn and continue to grow my software development portfolio, I look forward to adding it to my portfolio. 
+                Welcome to my world and thank you for visiting!
+                 </p>
             </div>
 
           </div>
+          <div class="res" id="resume">
+           <p class="separator">
+            <RESUME>
+             <a href="https://docs.google.com/document/d/e/2PACX-1vTUj4kR2-0b_IhRE2R6ISfe8fpnBWa7jioTcXLdE50OXXesxmpCSoUj4HJXye0mmbwgoU9zCp2O-v2F/pub">View My Resume Here</a>
+            </RESUME>
+           </p>
+          </div> 
         </div>
       </div>
     </div><!-- End About Section -->
@@ -169,6 +168,33 @@
 
     </div><!-- End Services Section -->
 
+     <!-- ======= Skills Section ======= -->
+     <section id="skills" class="skills section-bg">
+      <section class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <h4><p>I've learned & used various technologies throughout my software developer journey.
+            I am still learning and growing. This is a sneak peak at what I have learned and used almost daily so far.
+            This section may currently look like a catepillar to most developers, but it will eventually be a butterfly!
+          </h4></p>
+             <img src="./assets/img/portfolio/001-python.png" alt="Python">
+             <img src="./assets/img/portfolio/002-js.png" alt="JavaScript">
+             <img src="./assets/img/portfolio/003-html-5.png" alt="HTML">
+             <img src="./assets/img/portfolio/004-css-3.png" alt="CSS">
+             <img src="./assets/img/portfolio/005-postgre.png" alt="PostgreSQL">
+             <img src="./assets/img/portfolio/006-nodejs.png" alt="Node">
+             <img src="./assets/img/portfolio/007-react.png" alt="React">
+             <img src="./assets/img/portfolio/008-c-sharp.png" alt="C#">
+             <img src="./assets/img/portfolio/009-java.png" alt="Java">
+             <img src="./assets/img/portfolio/010-database.png">
+        </div>
+      </section>
+      </section>
+        
+        
+     <!-- // End Skills Section -->
+
     <!-- ======= Portfolio Section ======= -->
     <div id="portfolio" class="paddsection">
 
@@ -187,34 +213,47 @@
           <a href="https://github.com/keishadw44/DateNightApp">
 				 <img src="./assets/img/portfolio/Project screenshot 1.png"  class="img-fluid" alt="DateNightApp" style="width:450px">
           </a>
+         
+          <div>
+            <br>
+          <h4>DateNight App</h4>
           
         <p> I decided to inlcude this project because this was my first group project. 
           I created the Restaurant page specifically. 
           This allowed me to use API calling to get the content to display on the page and send it to a schedule page. 
           It was created using CSS, HTML, JavaScript, API.</p>
-       
+       </div>
         </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <a href="https://github.com/keishadw44/90s-website-update">
               <img src="./assets/img/portfolio/ThatsSo90s.jpg"  class="img-fluid" alt="90's Website" style="width:450px">
                </a>
-               
+
+               <div>
+                <br>
+              <h4> 90's Website </h4>
+
              <p> I decided to inlcude this project because this was my first group project. 
                I created the Restaurant page specifically. 
                This allowed me to use API calling to get the content to display on the page and send it to a schedule page. 
                It was created using CSS, HTML, JavaScript, API.
               </p>
-            
+               </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            <a href="http://127.0.0.1:5501/todoList/home.html">
+            <img src="assets/img/portfolio/Todolist.png" class="img-fluid" alt="To Do List" style="width:450px">
+            </a>
+            <div>
+              <br>
+            <h4>To Do List</h4>
+              <p>
+             I included this project because it was one that I and probably every human can use to stay on 
+             task with chores and things to do. I have a busy life and often forget things. This allows me to wake up,
+             enter the things I need to do for the day and actually stay on task throughout the day to make sure everything gets done.
+              </p>
             </div>
           </div>
 
@@ -238,15 +277,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+          
 
         </div>
 
@@ -274,9 +305,7 @@
 
                 <div class="journal-txt">
 
-                  <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
-                  <p class="separator">To an English person, it will seem like simplified English
-                  </p>
+                  
 
                 </div>
 
@@ -290,9 +319,7 @@
 
                 <div class="journal-txt">
 
-                  <h4><a href="blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>
-                  <p class="separator">To an English person, it will seem like simplified English
-                  </p>
+                  
 
                 </div>
 
@@ -302,13 +329,54 @@
             <div class="col-lg-4 col-md-6">
               <div class="journal-info">
 
-                <a href="blog-single.html"><img src="assets/img/portfolio/nail art 1.jpg" class="img-responsive" alt="img"></a>
+                <a href="blog-single.html"><img src="assets/img/portfolio/nail art 1.jpg" class="img-responsive" alt="img" style="height: 410px; width: 600px;"></a>
 
                 <div class="journal-txt">
 
-                  <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
-                  <p class="separator">To an English person, it will seem like simplified English
-                  </p>
+              
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+
+                <a href="blog-single.html"><img src="assets/img/portfolio/qasim-malick-Yh9FrbN5Bts-unsplash.jpg" class="img-responsive" alt="img" style="height: 320px;  width: 600px;"></a>
+
+                <div class="journal-txt">
+
+              
+
+                </div>
+
+              </div>
+            </div>
+           
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+
+                <a href="blog-single.html"><img src="https://images.unsplash.com/photo-1566837945700-30057527ade0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" class="img-responsive" alt="img" style="height: 320px; width: 600px;" ></a>
+
+                <div class="journal-txt">
+
+              
+
+                </div>
+
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+
+                <a href="blog-single.html"><img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" class="img-responsive" alt="img" style="height: 320px;  width: 600px;"></a>
+
+                <div class="journal-txt">
+
+              
 
                 </div>
 
@@ -333,7 +401,6 @@
                 <h2 class="mb-30">GET IN TOUCH</h2>
 
                 <ul class="contact-details">
-                  <li class="icon brands fa-linkedin" aria-hidden="true"></i><a href="https://linkedin.com/in/lwaller-17667872/" target="_blank"> LinkedIn</a></li>
                   <li><span>Atlanta, Ga, United States</span></li>
                   <li><span>savionro1@gmail.com</span></li>
                 </ul>
@@ -344,11 +411,13 @@
             <div class="col-lg-6">
               <form action="action_page.php"></form>
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+               
                 <div class="row gy-3">
 
                   <div class="col-lg-6">
                     <div class="form-group contact-block1">
                       <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                      
                     </div>
                   </div>
 
@@ -379,7 +448,9 @@
                   <div class="mt-0">
                     <input type="submit" class="btn btn-defeault btn-send" value="Send message">
                   </div>
-
+                 
+                  
+                
                 </div>
               </form>
             </div>
