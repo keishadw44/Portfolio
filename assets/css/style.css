@@ -24,6 +24,9 @@ body {
 .mb-30{
   text-align: center;
 }
+.col-lg-6{
+text-align: center;
+}
 h1,
 h2,
 h3,
@@ -130,14 +133,13 @@ p {
   outline: 0 none;
 }
 
+.paddsection2{
+  justify-content: center;
+}
 .paddsection {
- 
+  text-align: center;
   padding-top: 90px;
   padding-bottom: 90px;
-}
-.paddsection2{
-  
-  justify-self: center;
 }
 
 .paddsections {
